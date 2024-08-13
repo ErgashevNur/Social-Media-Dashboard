@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v18-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v18-latin-700.woff2") format("woff2");
+}
+
+.container {
+  width: 100%;
+  max-width: 1210px;
+  margin: auto;
+}
+
+.back-color {
+  background-color: #f7f9ff;
+  border-radius: 0 0 20px 20px;
+  height: 244px;
+  padding: 36px 50px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-mode {
+  display: none;
+}
+
+.button-dark-mode button {
+  border: none;
+  background-color: #f7f9ff;
+}
